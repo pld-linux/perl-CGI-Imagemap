@@ -1,10 +1,11 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	CGI::Imagemap.pm - imagemap behavior for CGI programs
+Summary:	CGI::Imagemap - imagemap behavior for CGI programs
 Summary(pl):	CGI::Imagemap - obs³uga imagemap dla programów CGI
 Name:		perl-CGI-Imagemap
 Version:	1.00
 Release:	11
-License:	GPL
+# same as perl
+License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/CGI_Imagemap-%{version}.tar.gz
 # Source0-md5:	063fcbb84efb0237accf4bc740ced608
