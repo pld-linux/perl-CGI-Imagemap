@@ -7,7 +7,7 @@ Summary:	CGI::Imagemap - imagemap behavior for CGI programs
 Summary(pl):	CGI::Imagemap - obs³uga imagemap dla programów CGI
 Name:		perl-CGI-Imagemap
 Version:	1.00
-Release:	11
+Release:	12
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
