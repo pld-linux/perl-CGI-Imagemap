@@ -3,12 +3,12 @@ Summary:	CGI::Imagemap.pm - imagemap behavior for CGI programs
 Summary(pl):	CGI::Imagemap - obs³uga imagemap dla programów CGI
 Name:		perl-CGI-Imagemap
 Version:	1.00
-Release:	10
+Release:	11
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/CGI_Imagemap-%{version}.tar.gz
 BuildRequires:	perl >= 5.6
-BuildRequires:	rpm-perlprov >= 3.0.3-16
+BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -26,7 +26,8 @@ jak i serwera.
 %setup -q -n CGI_Imagemap-%{version}
 
 %build
-%{__perl} Makefile.PL
+%{__perl} Makefile.PL \
+	INSTALLDIRS=vendor 
 %{__make}
 
 %install
@@ -40,5 +41,5 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README
-%{perl_sitelib}/CGI/Imagemap.pm
+%{perl_vendorlib}/CGI/Imagemap.pm
 %{_mandir}/man3/*
