@@ -13,10 +13,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI-Imagemap perl module.
+CGI::Imagemap perl module.
 
 %description -l pl
-Modu³ perla CGI-Imagemap.
+Modu³ perla CGI::Imagemap.
 
 %prep
 %setup -q -n CGI_Imagemap-%{version}
