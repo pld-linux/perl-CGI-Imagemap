@@ -26,7 +26,7 @@ jak i serwera.
 %setup -q -n CGI_Imagemap-%{version}
 
 %build
-perl Makefile.PL
+%{__perl} Makefile.PL
 %{__make}
 
 %install
