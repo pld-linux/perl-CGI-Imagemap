@@ -3,7 +3,7 @@ Summary:	CGI_Imagemap perl module
 Summary(pl):	Modu³ perla CGI_Imagemap
 Name:		perl-CGI-Imagemap
 Version:	1.00
-Release:	5
+Release:	6
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
