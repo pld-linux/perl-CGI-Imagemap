@@ -1,9 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
-Summary:	CGI_Imagemap perl module
-Summary(pl):	Modu³ perla CGI_Imagemap
+Summary:	CGI::Imagemap.pm - imagemap behavior for CGI programs
 Name:		perl-CGI-Imagemap
 Version:	1.00
-Release:	8
+Release:	9
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.cpan.org/pub/CPAN/modules/by-module/CGI/CGI_Imagemap-%{version}.tar.gz
@@ -13,10 +12,9 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-CGI::Imagemap perl module.
-
-%description -l pl
-Modu³ perla CGI::Imagemap.
+CGI::Imagemap allows CGI programmers to place TYPE=IMAGE form fields
+on their HTML fill-out forms, with either client-side or server-side
+maps emulated.
 
 %prep
 %setup -q -n CGI_Imagemap-%{version}
