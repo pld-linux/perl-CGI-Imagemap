@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Imagemap - imagemap behavior for CGI programs
-Summary(pl):	CGI::Imagemap - obs≥uga imagemap dla programÛw CGI
+Summary(pl.UTF-8):   CGI::Imagemap - obs≈Çuga imagemap dla program√≥w CGI
 Name:		perl-CGI-Imagemap
 Version:	1.00
 Release:	12
@@ -23,9 +23,9 @@ CGI::Imagemap allows CGI programmers to place TYPE=IMAGE form fields
 on their HTML fill-out forms, with either client-side or server-side
 maps emulated.
 
-%description -l pl
-Modu≥ CGI::Imagemap pozwala programistom CGI na umieszczanie pÛl z
-z TYPE=IMAGE w formularzach HTML z mapami zarÛwno po stronie klienta
+%description -l pl.UTF-8
+Modu≈Ç CGI::Imagemap pozwala programistom CGI na umieszczanie p√≥l z
+z TYPE=IMAGE w formularzach HTML z mapami zar√≥wno po stronie klienta
 jak i serwera.
 
 %prep
