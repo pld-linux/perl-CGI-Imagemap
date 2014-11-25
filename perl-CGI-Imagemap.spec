@@ -1,7 +1,9 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
+
+%define		pdir	CGI
+%define		pnam	Imagemap
 %include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Imagemap - imagemap behavior for CGI programs
 Summary(pl.UTF-8):	CGI::Imagemap - obsługa imagemap dla programów CGI
@@ -13,6 +15,7 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/CGI/CGI_Imagemap-%{version}.tar.gz
 # Source0-md5:	063fcbb84efb0237accf4bc740ced608
+URL:		http://search.cpan.org/dist/CGI-Imagemap/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -24,9 +27,9 @@ on their HTML fill-out forms, with either client-side or server-side
 maps emulated.
 
 %description -l pl.UTF-8
-Moduł CGI::Imagemap pozwala programistom CGI na umieszczanie pól z
-z TYPE=IMAGE w formularzach HTML z mapami zarówno po stronie klienta
-jak i serwera.
+Moduł CGI::Imagemap pozwala programistom CGI na umieszczanie pól z z
+TYPE=IMAGE w formularzach HTML z mapami zarówno po stronie klienta jak
+i serwera.
 
 %prep
 %setup -q -n CGI_Imagemap-%{version}
