@@ -4,7 +4,6 @@
 
 %define		pdir	CGI
 %define		pnam	Imagemap
-%include	/usr/lib/rpm/macros.perl
 Summary:	CGI::Imagemap - imagemap behavior for CGI programs
 Summary(pl.UTF-8):	CGI::Imagemap - obsługa imagemap dla programów CGI
 Name:		perl-CGI-Imagemap
